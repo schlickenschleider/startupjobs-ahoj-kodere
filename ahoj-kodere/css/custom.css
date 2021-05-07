@@ -1,0 +1,13 @@
+.custom-primary-bullet {
+    list-style: none;
+    text-indent: 0;
+  }
+
+  .custom-primary-bullet li::before {
+    content: "\2022";
+    color: #0275d8;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
